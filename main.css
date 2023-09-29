@@ -1,0 +1,111 @@
+html, body, p, a, h1, h2, img {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Oswald', sans-serif;;
+}
+#titlePage {
+    background: burlywood url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg) top center no-repeat;
+    background-size: cover;
+    background-position-y: -130px;
+}
+#navigationContainer {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    width: 1250px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+#navTitle p {
+    font-size: 20px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-right: 12px;
+}
+a:last-child {
+    padding-right: 0px;
+}
+
+#title {
+    width: 450px;
+    margin: 145px auto 0 auto;
+    text-align: center;
+    font-size: 52px;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    letter-spacing: 3px;
+}
+#subTitle {
+    color: white;
+    width: 800px;
+    margin: 20px auto 0px auto;
+    padding-bottom: 215px;
+}
+#subTitle h2 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 4px;
+}
+#imageContainer {
+    height: 350px;
+    float: left;
+}
+#imageContainer img {
+    height: 350px;
+    width: 550px;
+}
+.textContainer {
+    background-color: black;
+    padding: 115px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#contentTitle {
+    display: flex;
+    align-items: center;
+}
+#contentSubTitle {
+    display: flex;
+    align-items: center;
+}
+#contentTitle p {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#contentSubTitle {
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+#secondContent img {
+    height: 350px;
+    width: 550px;
+    float: right;
+}
+#secondContent .textContainer {
+    background-color: #0c0d0d;
+}
+#thirdContent img {
+    height: 350px;
+    width: 550px;
+    float: left;
+}
+#thirdContent .textContainer {
+    background-color: #303435;
+}
+
+
+
+
